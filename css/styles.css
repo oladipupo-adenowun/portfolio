@@ -91,7 +91,7 @@ hr{
 }
 
 .contact-me{
-    margin:50px;
+    padding:5% 30% 0 30%;
 }
 
 .bottom-container{
@@ -106,7 +106,7 @@ hr{
 }
 
 a:hover{
-    color:#EaFeFe
+    color: red;
 }
 
 .btn {
@@ -141,4 +141,48 @@ a:hover{
   .navigate{
     background-color: #EaF6F6;
     position:relative;
+    padding:10px;
   }
+
+  a.nav-link{
+    color: #40514E;
+  }
+
+  a.nav-link:hover{
+    color: #000;
+  }
+
+  a.active{
+    background-color: #11cdd4 !important;
+  }
+
+  div.tools{
+    position:relative;
+    left:1%;
+  }
+
+  p.skill-set img, div.tools img{
+    width: 5%;
+    margin: 5px;
+  }
+
+  .portfolio{
+    padding:5% 30% 0 30%;
+    border-bottom:1px solid #40514E;
+}
+
+.portfolio h3{
+    position: relative;
+    left: 10%;
+}
+
+.portfolio-text img{
+    width:15%;
+    float:left;
+    margin: auto 30px auto auto;
+}
+
+.border-line{
+    border: 1px solid #40514E;
+    width:40%;
+}

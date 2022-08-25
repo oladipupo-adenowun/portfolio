@@ -9,30 +9,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <script type="text/javascript" src="script/code.js"></script>
 </head>
 <body>
   <div class="navigate">
     <ul class="nav justify-content-end nav-pills">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">My Skills</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Portfolio</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><a class="dropdown-item" href="#portfolio-dogspot">Dog Spot</a></li>
+          <li><a class="dropdown-item" href="#portfolio-dicee">Dicee</a></li>
+          <li><a class="dropdown-item" href="#portfolio-drumkit">Drum Kit</a></li>
+          <li><a class="dropdown-item" href="#portfolio-followme">Follow Me</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Separated link</a></li>
+          <li><a class="dropdown-item" href="#portfolio-newsletter">Newsletter Signup</a></li>
+          <li><a class="dropdown-item" href="#portfolio-todolist">Todo List</a></li>
+          <li><a class="dropdown-item" href="#portfolio-blog">Blog</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#portfolio-wiki">Wiki Api</a></li>
         </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" target="_blank" href="https://tradekonnekt.com">Store Front</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link" href="#contact-me">Contact Me</a>
       </li>
     </ul>
   </div>
@@ -50,25 +60,199 @@
           <p>I am a Software developer and Data Analyst, with a combined experience spanning 20 years.</p>
         </div>
         <hr>
-        <div class="skills">
+        <div id="skills" class="skills">
           <h2>My Skills.</h2>
           <div class="skill-row">
             <img class="coding-image" src="images/data-circle.png" alt="coding image">
             <h3>Software Development</h3>
             <p>I have planned, designed and developed numerous applications with a number of technologies including PHP, Javascript, NodeJs and SQL.</p>
+            <p class="skill-set">
+              <img src="images/icons/nodejs.png" alt="Node.js">
+              <img src="images/icons/reactjs.png" alt="React.js">
+              <img src="images/icons/database.png" alt="SQL">
+              <img src="images/icons/bootstrap.png" alt="Bootstrap">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+              <img src="images/icons/api.png" alt="REST Api">
+              <img src="images/icons/blockchain.png" alt="Blockchain">
+              <img src="images/icons/php.png" alt="Php">
+              <img src="images/icons/python.png" alt="Python">
+              <img src="images/icons/java.png" alt="Java">
+              <img src="images/icons/csharp.png" alt="C#">
+            </p>
           </div>
           <div class="skill-row">
             <img class="analysis-image" src="images/analysis-circle.png" alt="analysis image">
             <h3>Data Analysis</h3>
             <p>I am great with numbers and can spot and interprete trends in data. I have built report templates and metric dashboards with technologies including Excel, R and Tableau. </p>
+            <p class="skill-set">
+              <img src="images/icons/excel.png" alt="Excel">
+              <img src="images/icons/visualization.png" alt="Data Visualization">
+            </p>
           </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <h2>My Portfolio</h2>
+        <div id="portfolio-dogspot" class="portfolio">
+          <h3>Dog Spot</h3>
+          <p class="portfolio-text"><img src="images/dog.png" alt="Dog">This is a simple one-page design based on Bootstrap. It provides a nice starter template for social network for dog lovers to showcase their dogs.  
+            <a href="https://oladipupo-adenowun.github.io/dogspot/">See here</a>
+            <div class="tools">
+              <img src="images/icons/bootstrap.png" alt="Bootstrap">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-dicee" class="portfolio">
+          <h3>Dicee</h3>
+          <p class="portfolio-text"><img src="images/dice.png" alt="Dice">This is a two player game that is triggered by each page refresh. The dices are rolled simulaneously and the player with the highest score wins.  
+            <a href="https://oladipupo-adenowun.github.io/dicee/">See here</a>
+            <div class="tools">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-drumkit" class="portfolio">
+          <h3>Drum Kit</h3>
+          <p class="portfolio-text"><img src="images/drum.png" alt="Drum">This app plays different sounds associated with the keys pressed.  
+            <a href="https://oladipupo-adenowun.github.io/drumkit/">See here</a>
+            <div class="tools">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-followme" class="portfolio">
+          <h3>Follow Me</h3>
+          <p class="portfolio-text"><img src="images/leader.png" alt="leader">To win this game, you need to follow the suggested pattern of colors that is signaled on screen in the exact sequence.  
+            <a href="https://oladipupo-adenowun.github.io/followme/">See here</a>
+            <div class="tools">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-newsletter" class="portfolio">
+          <h3>Newsletter Signup</h3>
+          <p class="portfolio-text"><img src="images/signup.png" alt="signup">A simple onboarding page to subscribe to get Newsletter.  
+            <a target="_blank" href="https://protected-anchorage-50150.herokuapp.com">See here</a>
+            <div class="tools">
+              <img src="images/icons/bootstrap.png" alt="Bootstrap">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+              <img src="images/icons/nodejs.png" alt="Node.js">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-todolist" class="portfolio">
+          <h3>Todo List</h3>
+          <p class="portfolio-text"><img src="images/to-do-list.png" alt="to do list">A simple Todo List to quickly jot down things that needs to be done. You can categorize the entries by inserting a new category in the URL.  
+            <a target="_blank" href="https://murmuring-dawn-06600.herokuapp.com">See here</a>
+            <div class="tools">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+              <img src="images/icons/nodejs.png" alt="Node.js">
+              <img src="images/icons/database.png" alt="Mongo DB">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-blog" class="portfolio">
+          <h3>Blog</h3>
+          <p class="portfolio-text"><img src="images/blog.png" alt="blog">A basic blog app to note your ideas about any and everything.
+            <a target="_blank" href="https://obscure-thicket-67594.herokuapp.com">See here</a>
+            <div class="tools">
+              <img src="images/icons/bootstrap.png" alt="Bootstrap">
+              <img src="images/icons/html-5.png" alt="HTML">
+              <img src="images/icons/css-3.png" alt="CSS">
+              <img src="images/icons/java-script.png" alt="Javascript">
+              <img src="images/icons/nodejs.png" alt="Node.js">
+              <img src="images/icons/database.png" alt="Mongo DB">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="portfolio-wiki" class="portfolio">
+          <h3>Wiki</h3>
+          <p class="portfolio-text"><img src="images/wiki.png" alt="wiki">A basic REST API that can be used to VIEW, ADD, DELETE, UPDATE and DELETE article entries.  
+            <a target="_blank" href="https://kinder-whistler-75654.herokuapp.com">See here</a>
+            <div class="tools">
+              <img src="images/icons/java-script.png" alt="Javascript">
+              <img src="images/icons/nodejs.png" alt="Node.js">
+              <img src="images/icons/database.png" alt="Mongo DB">
+            </div>
+          </p>
+        </div>
+        <hr>
+        <div id="contact-me" class="contact-me">
           <h2>Get in Touch</h2>
           <h3>If you have a software or analysis related project.</h3>
           <p>Believe all problems can be resolved through code? Let's discuss about the next big project we can create together! </p>
-          <a class="btn" href="mailto:oladipupo.adenowun@yahoo.com">CONTACT ME</a>
+          <form id="contact-form" class="needs-validation" method="POST" action="" enctype="multipart/form-data" onsubmit="return validate();" novalidate>
+            <div class="input-group mb-3 has-validation">
+              <span class="input-group-text">Your Name:</span>
+              <input type="text" class="form-control" id="c_name" name="c_name" required>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Enter your name</div>
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Phone No.:</span>
+              <input type="text" class="form-control" id="c_phone_no" name="c_phone_no">
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Email:</span>
+              <input type="email" class="form-control" id="c_email" name="c_email" required>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">What Technology would you like to discuss?</span>
+              <select class="form-select" id="c_tech" name="c_tech" required>
+                <option selected>Select One</option>
+                <option value="Node.js">Node.js</option>
+                <option value="React.js">React.js</option>
+                <option value="Express.js">Express.js</option>
+                <option value="Passport.js">Passport.js</option>
+                <option value="SQL">SQL</option>
+                <option value="Mongo DB">Mongo DB</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Bootstrap">Bootstrap</option>
+                <option value="Rest APIs">Rest APIs</option>
+                <option value="Blockchain">Blockchain</option>
+                <option value="PHP">PHP</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="Android SDK">Android SDK</option>
+                <option value="Scrum/Agile">Scrum/Agile</option>
+                <option value="Analysis">Analysis</option>
+              </select>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Your Message:</span>
+              <textarea class="form-control" id="c_message" name="c_message" rows="5" cols="20" required></textarea>
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary" id="c_send" name="c_send">Send</button>
+            </div>
+          </form>
         </div>
       </div>
       
@@ -77,7 +261,7 @@
         <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
         <a class="footer-link" href="https://twitter.com/">Twitter</a>
         <a class="footer-link" href="https://www.tradekonnekt.com/">Website</a>
-        <p>© 2022 Oladipupo Adenowun.</p>
+        <p>© 2022 Oladipupo Adenowun. | <a href="https://www.flaticon.com/free-icons" title="react icons">Icons by - Flaticon</a></p>
       </div>
       
     
