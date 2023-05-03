@@ -186,3 +186,14 @@ a:hover{
     border: 1px solid #40514E;
     width:40%;
 }
+
+.mobileapps{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+.mobileapps img{
+    width: 100%;
+}
